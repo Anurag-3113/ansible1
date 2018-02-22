@@ -1,6 +1,6 @@
 # Workshop: Start Playing with Ansible Playbooks
 
-## Topics Covered
+## Topics to be Covered
 
 * Using `ansible-playbook`
 * YAML syntax basics
