@@ -1,32 +1,38 @@
-Assignment 2: Using ansible module 
+# Topic: Ad-Hoc Commands and Basic Ansible Modules
 
- *  Create and delete ninja directory on host machine
- * Set hostname on all nodes from remote machine
- * Fetch os of all nodes and store o/p into a file
- * Use min two different machine of different flavour of os
- * Add three group into hosts file through ansible module.
-```
-          Debian ( ip of debian machine)
-          Centos ( ip of centos machine)
-          All ( ip of all nodes )
-```
-Problem statement:
+## Topics to be Covered
 
-Step 1:
-```
-    * Install apache on Debian machine
-    * Cross check apache isntalled or not from remote machine
-    * Apache runn  on 8082 port
-    * Create two virtual host
-    * Restart apache from remote machine
-```
-Step2:
-```
-   * Install nginx on centos machine
-   * Nginx run on 8080 port.
-```
+* Ansible Modules
+* Facts
+* Inventory and Groups
+* `ansible` command-line options: `-i -m -a -b --limit`
 
-Step3:
-``` 
-   * Configure Nginx - configure it to run as reverse proxy to apache
-```
+## What You Will Learn
+
+* How to test your Ansible configuration and connectivity
+* How to get and display Ansible facts
+* How to install a package
+
+## The Assignment
+
+Perform the following operations using ad-hoc commands:
+
+1. Fetch and display to STDOUT Ansible facts using the `setup` module.
+1. Fetch and display only the "virtual" subset of facts for each host.
+1. Fetch and display the value of fully qualified domain name (FQDN) of each host from their Ansible facts.
+1. Display the uptime of all hosts using the `command` module.
+1. Ping all hosts **except** the 'control' host using the `--limit` option
+1. Setup Java8 on the hosts in the "App" group using the apt module.
+1. Setup and enable the EPEL package repository on the hosts in the "web" group using the yum module.
+  * CentOS systems use the latest `epel-release` package
+  * RHEL systems should use [https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm](https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm)
+
+## Reference
+
+* `ansible --help`
+* [ping module](http://docs.ansible.com/ansible/ping_module.html)
+* [setup module](http://docs.ansible.com/ansible/setup_module.html)
+* [yum module](http://docs.ansible.com/ansible/yum_module.html)
+* [apt module](http://docs.ansible.com/ansible/apt_module.html)
+* [command module](http://docs.ansible.com/ansible/command_module.html)
+* [Introduction To Ad-Hoc Commands](http://docs.ansible.com/ansible/intro_adhoc.html)
