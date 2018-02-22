@@ -1,17 +1,28 @@
-Assignment 1
- * First Step: Install Ansible manually and then configure a node machine for it and verify using ansible Ping.
-  * Automating the Automation: Right a script to for the first point.
- * Add two host into hosts file.
- * check SSH login without password on both machine from remote machine.
- * Check ping on  both host
- * Check free memory through adhoc command on both sereves
- * Ansible Inventory: Use inventory, run ansible commands on various inventory groups.(Try this on minimum virtual machines.
+# Topic: Installing Ansible
+
+## Topics Covered
+
+* Installing Ansible using pip, yum or apt
+* Automating Ansible Installation
+* Configuration file basics
+* 
+
+## What You Will Learn
+
+* How easy it is to install and configure Ansible for yourself.
+
+## The Assignment
+
+1. Use pip to install the `ansible` package and its dependencies to your control machine.
+1. Display the Ansible version and man page to STDOUT.
+1. In `~/.ansible.cfg` file (create the file if it doesn't exist already) do the following:
+  * Create a new directory `~/.ansible/retry-files` and set `retry_files_save_path` to it.
+  * Set the Ansible system `forks` to 10
+1. Check all the possible parameters you need to know in ansible.cfg file.
+1. Ansible Inventory: Check the default inventory file for ansible control master and use inventory, run ansible ping commands on various inventory groups.(Try this on minimum of two virtual machines.
    (You can use any of these Docker/Vagrant)
 
-Problem statement 1: Using Adhoc command
-```
-Host a static website on minimum three hosts using inventory, content of static website is "Index page of Ansible assignment"
-Document root /opt/html
-````
- * You will need to install below software on all hosts
-    * nginx
+## Reference
+
+* [Ansible Installation](http://docs.ansible.com/ansible/intro_installation.html)
+* [Ansible Configuration File](http://docs.ansible.com/ansible/intro_configuration.html)
