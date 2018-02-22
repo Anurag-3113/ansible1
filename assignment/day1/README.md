@@ -15,12 +15,11 @@
 
 1. Use pip to install the `ansible` package and its dependencies to your control machine.
 1. Display the Ansible version and man page to STDOUT.
+1. Check all the possible parameters you need to know in ansible.cfg file.
+1. Ansible Inventory: Check the default inventory file for ansible control master and use inventory, run ansible ping commands on various inventory groups. Try this on minimum of two virtual machines.(You can use any of these Docker/Vagrant)
 1. In `~/.ansible.cfg` file (create the file if it doesn't exist already) do the following:
   * Create a new directory `~/.ansible/retry-files` and set `retry_files_save_path` to it.
   * Set the Ansible system `forks` to 10
-1. Check all the possible parameters you need to know in ansible.cfg file.
-1. Ansible Inventory: Check the default inventory file for ansible control master and use inventory, run ansible ping commands on various inventory groups.(Try this on minimum of two virtual machines.
-   (You can use any of these Docker/Vagrant)
 
 ## Reference
 
