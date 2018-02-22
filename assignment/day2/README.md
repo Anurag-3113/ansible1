@@ -5,10 +5,11 @@ Assignment 2: Using ansible module
  * Fetch os of all nodes and store o/p into a file
  * Use min two different machine of different flavour of os
  * Add three group into hosts file through ansible module.
-          - Debian ( ip of debian machine)
-          - Centos ( ip of centos machine)
-          - All ( ip of all nodes )
-
+```
+          Debian ( ip of debian machine)
+          Centos ( ip of centos machine)
+          All ( ip of all nodes )
+```
 Problem statement:
 
 Step 1:
