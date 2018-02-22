@@ -2,7 +2,7 @@
 
 ## Topics Covered
 
-* Using `ansible-playbook
+* Using `ansible-playbook`
 * YAML syntax basics
 * Basic Ansible playbook structure
 * Tasks,modules and plays
