@@ -5,7 +5,7 @@
 * Installing Ansible using pip, yum or apt
 * Automating Ansible Installation
 * Configuration file basics
-* 
+* Ansible inventory Usage 
 
 ## What You Will Learn
 
