@@ -6,6 +6,7 @@
 * YAML syntax basics
 * Basic Ansible playbook structure
 * Tasks,modules and plays
+* Deploy a simple war file in Tomcat using ansible
 
 ## What You Will Learn
 
