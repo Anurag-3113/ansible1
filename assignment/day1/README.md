@@ -1,11 +1,12 @@
 # Topic: Installing Ansible
 
-## Topics Covered
+## Topics to be Covered
 
 * Installing Ansible using pip, yum or apt
 * Automating Ansible Installation
 * Configuration file basics
 * Ansible inventory Usage 
+* How to install a package
 
 ## What You Will Learn
 
