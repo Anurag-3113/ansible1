@@ -21,6 +21,14 @@
   * Create a new directory `~/.ansible/retry-files` and set `retry_files_save_path` to it.
   * Set the Ansible system `forks` to 10
 
+## Problem statement: Using Adhoc command
+```
+Host a static website on minimum three hosts using inventory, content of static website is "Index page of Ansible assignment"
+Document root /opt/html
+````
+ * You will need to install below software on all hosts
+    * nginx
+
 ## Reference
 
 * [Ansible Installation](http://docs.ansible.com/ansible/intro_installation.html)
