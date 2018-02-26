@@ -26,10 +26,10 @@ Perform the following operations using ad-hoc commands:
 1. Setup and enable the EPEL package repository on the hosts in the "web" group using the yum module.
   * CentOS systems use the latest `epel-release` package
   * RHEL systems should use [https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm](https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm)
-
+  * Create inventory groups app and web
 ## Reference
 
-* `ansible --help`
+* `ansible --help` `ansible-doc -s <module_name>`
 * [ping module](http://docs.ansible.com/ansible/ping_module.html)
 * [setup module](http://docs.ansible.com/ansible/setup_module.html)
 * [yum module](http://docs.ansible.com/ansible/yum_module.html)
