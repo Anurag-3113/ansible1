@@ -24,11 +24,17 @@
 
 ## Problem statement: Using Adhoc command
 ```
-Host a static website on minimum three hosts using inventory, content of static website is "Index page of Ansible assignment"
+- Host a static website on minimum three hosts using inventory, content of static website is "Index page of Ansible assignment"
 Document root /opt/html
+
+- First do this manually and then with jenkins using ansible plugin or execute shell.
+- only use ansible modules.
 ````
  * You will need to install below software on all hosts
     * nginx
+
+
+ 
 
 ## Reference
 
