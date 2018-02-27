@@ -15,8 +15,11 @@
 
 ## The Assignment
 
-Perform the following operations using ad-hoc commands:
-
+Perform the following operations using ad-hoc commands and ansible modules :
+1. set a cron on ansible control machine that will run every 1 minutes ,  and perform below tasks:-
+  -  execute ansible adhoc commands on client machines (cannot be control machine) , to  create a file in /var/log/ninja_name on all the client nodes,
+     append `system_hostname [:space:] system_time` in the file every 1 minute using ansible facts.
+   
 1. Fetch and display to STDOUT Ansible facts using the `setup` module.
 1. Fetch and display only the "virtual" subset of facts for each host.
 1. Fetch and display the value of fully qualified domain name (FQDN) of each host from their Ansible facts.
