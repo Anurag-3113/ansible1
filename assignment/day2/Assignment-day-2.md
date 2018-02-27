@@ -1,17 +1,5 @@
 # Topic: Ad-Hoc Commands and Basic Ansible Modules
 
-## Topics to be Covered
-
-* Ansible Modules
-* Facts
-* Inventory and Groups
-* `ansible` command-line options: `-i -m -a -b --limit`
-
-## What You Will Learn
-
-* How to test your Ansible configuration and connectivity
-* How to get and display Ansible facts
-* How to install a package
 
 ## The Assignment
 
@@ -39,3 +27,7 @@ Perform the following operations using ad-hoc commands and ansible modules :
 * [apt module](http://docs.ansible.com/ansible/apt_module.html)
 * [command module](http://docs.ansible.com/ansible/command_module.html)
 * [Introduction To Ad-Hoc Commands](http://docs.ansible.com/ansible/intro_adhoc.html)
+* [cron module] (http://docs.ansible.com/ansible/latest/cron_module.html)
+* [All File Modules] (http://docs.ansible.com/ansible/latest/list_of_files_modules.html)
+* [block in file] (http://docs.ansible.com/ansible/latest/blockinfile_module.html)
+ 
