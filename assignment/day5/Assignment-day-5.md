@@ -15,7 +15,7 @@ Provisioning:-
 1. Provision application servers, for example - java, tomcat are required for a java project.
 1. This job will be a separate job and can be executed to any machine on requirement.
 
-###Build and Deployment Job will be in downstream relationship.
+### Build and Deployment Job will be in downstream relationship.
 
 Build:-
 1. Build any Project - can be java or any other language using jenkins.
