@@ -5,7 +5,7 @@
 1. Create ssh key for each user so that  all those 5 users will be able to login through ssh.
 
 1. Creat Logical Volume in any node machine.
-* need to installl lvm2 first using ansible.
+1. need to installl lvm2 first using ansible.
 1. Create ext4 type File System on the newly created logical volume.
 1. Mount newly created file system.
 
